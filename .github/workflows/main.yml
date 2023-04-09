@@ -13,6 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - working-directory: ./portfolio-ruben
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -22,7 +23,6 @@ jobs:
 
       - name: Build
         run: |
-          cd portfolio-ruben
           npm i
           npm run build
           npm run export

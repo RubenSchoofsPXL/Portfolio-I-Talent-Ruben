@@ -10,9 +10,6 @@ on:
 jobs:
   deployment:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./portfolio-ruben
 
     steps:
       - uses: actions/checkout@v3
@@ -24,6 +21,7 @@ jobs:
           cache: 'npm'
 
       - name: Build
+        working-directory: ./portfolio-ruben
         run: |
           npm i
           npm run build

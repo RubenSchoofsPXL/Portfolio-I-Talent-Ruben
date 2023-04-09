@@ -21,11 +21,11 @@ jobs:
           cache: 'npm'
 
       - name: Build
-        working-directory: ./portfolio-ruben
         run: |
           npm i
           npm run build
           npm run export
+        working-directory: ./portfolio-ruben
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

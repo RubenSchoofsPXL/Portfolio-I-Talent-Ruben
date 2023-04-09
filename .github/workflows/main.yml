@@ -10,12 +10,14 @@ on:
 jobs:
   deployment:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./portfolio-ruben
 
     steps:
       - uses: actions/checkout@v3
 
       - name: Setup Node
-        working-directory: ./portfolio-ruben
         uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'

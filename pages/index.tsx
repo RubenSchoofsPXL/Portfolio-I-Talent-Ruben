@@ -39,7 +39,7 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-            {page === "timeline" && <ActivityTimeline></ActivityTimeline>}
+            {page === "timeline" && <ActivityTimeline/>}
         </div>
 
         <div className={styles.grid}>

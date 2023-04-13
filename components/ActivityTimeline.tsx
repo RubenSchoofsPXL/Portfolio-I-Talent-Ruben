@@ -8,6 +8,7 @@ import {Timeline, TimelineContent} from "@mui/lab";
 import React from "react";
 
 const History = styled('div')(({ theme }) => ({
+    marginTop: '2vh',
     '&::-webkit-scrollbar': {
         width: '8px',
     },
@@ -39,7 +40,7 @@ const ActivityTimeline: React.FC = () => {
     return(
        <>
            <History sx={{
-               maxHeight: 500,
+               maxHeight: 400,
                width: '100%',
                display: 'flex',
                overflowX: 'hidden'
@@ -211,6 +212,16 @@ const ActivityTimeline: React.FC = () => {
                            </InfoTip>
                        </Activity>
                    </TimelineItem>
+                   <TimelineItem>
+                       <TimelineSeparator>
+                           <TimelineDot />
+                       </TimelineSeparator>
+                       <Activity>Cursus Clean Code @ JIDOKA
+                           <InfoTip title={"Tijdens mijn stage bij JIDOKA heb ik de cursus Clean Code gevolgd. Dit is een cursus van twee dagen op het kantoor van JIDOKA gegeven door Geert Guldentops"} >
+                               <InfoIcon/>
+                           </InfoTip>
+                       </Activity>
+                   </TimelineItem>
                </Timeline>
                <Timeline sx={{
                    [`& .${timelineItemClasses.root}:before`]: {
@@ -269,6 +280,11 @@ const ActivityTimeline: React.FC = () => {
                    <TimelineItem>
                        <ActivityYear>21/2/2023 <br/>
                            22/2/2023
+                       </ActivityYear>
+                   </TimelineItem>
+                   <TimelineItem>
+                       <ActivityYear>3/4/2023 <br/>
+                           4/4/2023
                        </ActivityYear>
                    </TimelineItem>
                </Timeline>

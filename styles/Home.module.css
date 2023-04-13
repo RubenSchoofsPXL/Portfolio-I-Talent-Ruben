@@ -3,7 +3,110 @@
   position: fixed;
   left: 60px;
   top: 30px;
+  cursor: pointer;
 }
+
+.bigText {
+  position: relative;
+  margin: 0;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  padding: 10px;
+  overflow: auto;
+  width: 800px;
+  height: 400px;
+}
+
+.bigText p {
+  border: 0!important;
+  background-color: rgba(var(--callout-rgb), 0.5);
+}
+
+.news {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news h1 {
+  font-size: 22px;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+}
+
+.newsItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px 20px;
+}
+
+.newsText {
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  font-size: 14px;
+  padding: 1rem;
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+}
+
+.newsText2 {
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  font-size: 14px;
+  padding: 1rem;
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+}
+
+.newsItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  height: 260px;
+}
+
+.newsItemScreenshot {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  height: 340px;
+}
+
+.newsItemScreenshot2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  height: 400px;
+}
+
+.newsItem img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .main {
   display: flex;

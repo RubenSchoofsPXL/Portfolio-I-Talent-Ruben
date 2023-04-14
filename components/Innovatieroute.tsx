@@ -7,12 +7,12 @@ const Innovatieroute: React.FC = () => {
             <div className={styles.news}>
                 <div className={styles.newsItems}>
                     <div className={styles.newsItem}>
-                        <img src='/assets/wisemen.png' width={100} height={100} /> <br/>
+                        <img src='/Portfolio-I-Talent-Ruben/assets/wisemen.png' width={100} height={100} /> <br/>
                         <p>
                             Wisemen
                         </p> <br/>
                         <a href='https://www.linkedin.com/company/wisemen-digital/' target='_blank'>
-                            <img src='/assets/link.png' width={75} height={75}  />
+                            <img src='/Portfolio-I-Talent-Ruben/assets/link.png' width={75} height={75}  />
                         </a>
                     </div>
                     <div className={styles.newsText}>
@@ -25,21 +25,21 @@ const Innovatieroute: React.FC = () => {
                         </p>
                     </div>
                     <div className={styles.newsItem}>
-                        <img src='/assets/humix.png' width={100} height={100} /> <br/>
+                        <img src='/Portfolio-I-Talent-Ruben/assets/humix.png' width={100} height={100} /> <br/>
                         <p>
                             Humix
                         </p> <br/>
                         <a href='https://www.linkedin.com/company/humix/' target='_blank'>
-                            <img src='/assets/link.png' width={75} height={75}  />
+                            <img src='/Portfolio-I-Talent-Ruben/assets/link.png' width={75} height={75}  />
                         </a>
                     </div>
                     <div className={styles.newsItem}>
-                        <img src='/assets/appfoundry.png' width={100} height={100} /> <br/>
+                        <img src='/Portfolio-I-Talent-Ruben/assets/appfoundry.png' width={100} height={100} /> <br/>
                         <p>
                             AppFoundry
                         </p> <br/>
                         <a href='https://www.linkedin.com/company/appfoundry/' target='_blank'>
-                            <img src='/assets/link.png' width={75} height={75}  />
+                            <img src='/Portfolio-I-Talent-Ruben/assets/link.png' width={75} height={75}  />
                         </a>
                     </div>
                 </div>

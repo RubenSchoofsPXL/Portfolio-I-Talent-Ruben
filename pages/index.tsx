@@ -36,7 +36,7 @@ export default function Home() {
     <>
       <Head>
         <title>Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Portfolio-I-Talent-Ruben/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
@@ -45,7 +45,7 @@ export default function Home() {
               onClick={clickHome}
             >
               <img
-                src="/pxl.png"
+                src="/Portfolio-I-Talent-Ruben/pxl.png"
                 alt="PXL Logo"
                 className={styles.pxlLogo}
                 width={400}

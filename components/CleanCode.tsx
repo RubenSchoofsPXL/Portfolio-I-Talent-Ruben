@@ -8,7 +8,7 @@ const CleanCode: React.FC = () => {
             <div className={styles.news}>
                 <div className={styles.newsItems}>
                     <div className={styles.newsItemScreenshot2}>
-                        <img src='/assets/cleancode.png' width={500} /> <br/>
+                        <img src='/Portfolio-I-Talent-Ruben/assets/cleancode.png' width={500} /> <br/>
                         <p>
                             Foto Clean Code <br/>
                             Kantoor JIDOKA, Mechelen

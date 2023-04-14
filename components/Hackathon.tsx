@@ -8,7 +8,7 @@ const Hackathon: React.FC = () => {
             <div className={styles.news}>
                 <div className={styles.newsItems}>
                     <div className={styles.newsItemScreenshot}>
-                        <img src='/assets/screenshot1.png' width={700} height={260} /> <br/>
+                        <img src='/Portfolio-I-Talent-Ruben/assets/screenshot1.png' width={700} height={260} /> <br/>
                         <p>
                             Pagina voor wiskundige berekingen
                         </p> < br/>

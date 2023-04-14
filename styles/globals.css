@@ -84,7 +84,6 @@
 }
 
 body {
-  overflow: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -102,5 +101,12 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 700px) {
+  .body {
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 }

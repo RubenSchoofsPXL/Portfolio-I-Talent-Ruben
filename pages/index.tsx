@@ -40,7 +40,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <div>
+          <div className={styles.header}>
             <a
               onClick={clickHome}
             >
@@ -57,10 +57,22 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-            {page === "timeline" && <ActivityTimeline/>}
-            {page === "innovatie" && <Innovatieroute/>}
-            {page === "hackathon" && <Hackathon/>}
-            {page === "clean" && <CleanCode/>}
+            {page === "timeline" &&
+            <div className={styles.timelineMobile}>
+	            <ActivityTimeline/>
+            </div> }
+            {page === "innovatie" &&
+            <div className={styles.timelineMobile}>
+	            <Innovatieroute/>
+            </div>}
+            {page === "hackathon" &&
+            <div className={styles.timelineMobile}>
+	            <Hackathon/>
+            </div>}
+            {page === "clean" &&
+            <div className={styles.timelineMobile}>
+	            <CleanCode/>
+            </div>}
             {page === "home" && (
                 <>
                     <div className={styles.description}>

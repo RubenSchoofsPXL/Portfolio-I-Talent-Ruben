@@ -215,10 +215,15 @@
 /* Mobile */
 @media (max-width: 700px) {
   .timelineMobile {
+    transform: scale(0.7);
+    width: 100%;
+    overflow: auto;
+  }
+
+  .textMobile {
     transform: scale(0.8);
     overflow: auto;
     width: 100vw;
-
   }
 
   .news {

@@ -62,15 +62,15 @@ export default function Home() {
 	            <ActivityTimeline/>
             </div> }
             {page === "innovatie" &&
-            <div className={styles.timelineMobile}>
+            <div className={styles.textMobile}>
 	            <Innovatieroute/>
             </div>}
             {page === "hackathon" &&
-            <div className={styles.timelineMobile}>
+            <div className={styles.textMobile}>
 	            <Hackathon/>
             </div>}
             {page === "clean" &&
-            <div className={styles.timelineMobile}>
+            <div className={styles.textMobile}>
 	            <CleanCode/>
             </div>}
             {page === "home" && (

@@ -20,6 +20,15 @@ const CleanCode: React.FC = () => {
                             Ik heb samen met twee andere stagiairs en twee JIDOKA-werknemers de Clean Code cursus gevolgd op kantoor Mechelen. Dit is een professionele cursus gegeven door Geert Guldentops, ook werknemer bij JIDOKA. De cursus wordt gegeven aan niet alleen alle werknemers maar ook stagiairs en klanten. Volgers van de cursus krijgen op het einde een certificaat. <br/> <br/>
                         </p>
                     </div>
+                    <div className={styles.newsItem}>
+                        <img src='/Portfolio-I-Talent-Ruben/assets/jidoka.png' width={100} height={100} /> <br/>
+                        <p>
+                            JIDOKA
+                        </p> <br/>
+                        <a href='https://www.linkedin.com/company/jidoka-bv/' target='_blank'>
+                            <img src='/Portfolio-I-Talent-Ruben/assets/link.png' width={75} height={75}  />
+                        </a>
+                    </div>
                 </div>
             </div>
         </>
